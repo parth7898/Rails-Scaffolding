@@ -6,4 +6,7 @@ class ApplicationController < ActionController::Base
   def user (name)
     name
   end
+  def full_name
+    full_name
+  end
 end
